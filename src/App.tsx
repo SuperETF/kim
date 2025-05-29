@@ -9,7 +9,7 @@ const App: React.FC = () => {
   const videos = [
     {
       id: 1,
-      title: "가자미근을 자세히 찾아보자!",
+      title: "가자미근을 자세히 찾아봅시다!",
       subtitle: "발목 안정성에 핵심인 깊은 종아리 근육",
       embedUrl: "https://player.vimeo.com/video/1083232671?h=3dd5a683ed&loop=0&title=0&byline=0&portrait=0",
     },
