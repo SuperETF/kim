@@ -127,14 +127,6 @@ const App: React.FC = () => {
       </main>
 
       {/* 하단 버튼 */}
-      <div className="w-full px-10 mt-8">
-        <button
-          onClick={() => setShowModal(true)}
-          className="block w-full bg-gradient-to-r from-pink-500 to-red-500 text-white text-center py-4 rounded-xl text-lg font-semibold hover:scale-105 transition-transform duration-200"
-        >
-          쉬운 촉진법이 궁금하다면?
-        </button>
-      </div>
 
       {/* 모달 */}
       {showModal && (
